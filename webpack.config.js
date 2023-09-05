@@ -15,6 +15,12 @@ module.exports = {
     extensions: [".js", ".jsx", ".ts", ".tsx"],
     alias: {
       "@": path.resolve(__dirname, "src"),
+      "@app": path.resolve(__dirname, "src", "app"),
+      "@constants": path.resolve(__dirname, "src", "constants"),
+      "@entities": path.resolve(__dirname, "src", "entities"),
+      "@pages": path.resolve(__dirname, "src", "pages"),
+      "@shared": path.resolve(__dirname, "src", "shared"),
+      "@widgets": path.resolve(__dirname, "src", "widgets"),
     },
   },
   devServer: {
